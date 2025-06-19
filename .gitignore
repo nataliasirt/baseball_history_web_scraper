@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-selfcheck.json
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+# SQLite Database
+baseball.db
+# Log Files
+scraper*.log
+cleaner.log
+importer*.log
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# Selenium WebDriver
+chromedriver*
+geckodriver*
+*.exe
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+
+# Cache and Temporary Files
+*.cache
+*.tmp
+*.temp
+*~
+
+# Environment Variables
+.env
+*.env
+*.env.*
+
+# Jupyter Notebooks (if used)
+*.ipynb_checkpoints/
+
+# Coverage Reports (if used)
+coverage/
+.coverage
+htmlcov/
+
+# Keep Essential Files
+!requirements.txt
+!README.md
+!screenshots/
