@@ -1,12 +1,12 @@
 # Baseball History Dashboard
 
-A web scraping and visualization project for MLB statistics (1876–1880).
+A web scraping and visualization project for MLB statistics (1901–2024).
 
 ## Features
 - Line plot: Average batting average over time by league.
-- Bar plot: Top 10 home run leaders with a minimum home run filter.
-- Scatter plot: Batting average vs. on-base percentage.
-- Filters: Year (1876–1880), League (AL, NL, NA), Minimum Home Runs (0–10).
+- Bar plot: Top home run leaders with a minimum home run filter.
+- Bar plot: Top hitter leaders.
+- Filters: Year (1901–2024), League (AL, NL, All Leagues), Minimum Home Runs (0–10).
 
 ## Project Structure
 - `.gitignore`: Excludes generated files (`baseball.db`, `started_csv/`, `cleaned_csv/`, logs) to keep the repository clean.
